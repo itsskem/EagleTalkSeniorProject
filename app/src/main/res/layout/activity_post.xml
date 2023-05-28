@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".PostActivity">
+
+    <ImageButton
+        android:id="@+id/imageUploaderButton"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_heart2"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+
+
+
+    <EditText
+        android:id="@+id/thePostUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="465dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Say something for the feed!"
+        android:inputType="textMultiLine"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <EditText
+        android:id="@+id/thePostDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="500dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Username"
+        android:inputType="textMultiLine"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <Button
+        android:id="@+id/backButtonForPostPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:onClick="goBack"
+        android:text="X"
+        android:textSize="30dp"
+        android:textColor="#FF9800"
+        app:backgroundTint="#000000"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="POST"
+        android:textColor="#FF9800"
+        android:textSize="20dp"
+        app:backgroundTint="#000000"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+
+</RelativeLayout>
+

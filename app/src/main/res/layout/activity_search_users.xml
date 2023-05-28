@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".SearchUsers">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/txtSearch"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#808080"
+        android:drawableLeft="@drawable/ic_search"
+        android:padding="10dp"
+        android:shadowColor="#9C9494"
+        app:simpleItemSelectedColor="#706969"></AutoCompleteTextView>
+
+    <ListView
+        android:id="@+id/listData"
+        android:layout_width="337dp"
+        android:layout_height="465dp"
+        android:layout_below="@+id/txtSearch"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFC46E"></ListView>
+
+    <Button
+        android:id="@+id/backButtonForSearchUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goBack"
+        android:text="X"
+        app:backgroundTint="#FF9800" />
+
+</RelativeLayout>

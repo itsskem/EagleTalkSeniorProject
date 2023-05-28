@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EagleTalk</string>
+    <string name="signup" />
+    <string welcomeMessage="signUp">SignUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

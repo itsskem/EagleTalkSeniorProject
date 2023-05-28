@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB7203"
+    android:gravity = "center"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Eagle Talk"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#040404"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#0C0C0C"
+        android:text="Log In"
+        android:textColor="#F4F4F4"
+        app:backgroundTint="#070606" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#0C0C0C"
+        android:text="Sign Up"
+        android:textColor="#F4F4F4"
+        app:backgroundTint="#070606" />
+
+
+
+
+</LinearLayout>

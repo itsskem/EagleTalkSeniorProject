@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B4041"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/mcd"/>
+
+    <TextView
+        android:id="@+id/profile_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Name"
+        android:textColor="#EB7203"
+        android:layout_below="@+id/profile_pic"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/my_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#EB7203"
+        android:layout_below="@+id/profile_full_name"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/my_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi! I am using the app Eagle Talk, developed by Kem and Mack!"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/my_username"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/my_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade"
+        android:textColor="#EB7203"
+        android:layout_below="@+id/my_bio"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/my_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:textColor="#EB7203"
+        android:layout_below="@+id/my_grade"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/my_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="#EB7203"
+        android:layout_below="@+id/my_birthday"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ProfilePageBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:onClick="back"
+        android:text="X"
+        android:textColor="#EB7203"
+        android:textSize="30dp"
+        app:backgroundTint="#3B4041"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="548dp"></Button>
+
+</RelativeLayout>

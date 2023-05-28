@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730012918787",
+    "project_id": "eagle-talk",
+    "storage_bucket": "eagle-talk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730012918787:android:6d77a0c25a9802a18c1a36",
+        "android_client_info": {
+          "package_name": "com.example.eagletalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730012918787-sav8ti7p22qc884ia1ob20haa3n2j5ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4TjwVgO3xLxSlvUNPM8ejo6qsEz41SYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730012918787-sav8ti7p22qc884ia1ob20haa3n2j5ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
